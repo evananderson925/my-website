@@ -1,0 +1,72 @@
+/* base reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F5C45E;
+    color: #102E50;
+  }
+  
+  /* header styling */
+  .header {
+    background-color: #102E50;
+    color: #F5C45E;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  /* navigation bar styling */
+  .navbar {
+    background-color: #F5C45E;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+  }
+  
+  /* Content area styling */
+  .content {
+    padding-left: 50px;
+  }
+
+  /* image styling */
+  .image {
+    position: absolute;
+    top: 125px;         /* adjust as needed */
+    right: 550px;        /* about ½ inch from the right */
+    width: 200px;       /* your preferred size */
+    height: 500px;
+    z-index: 10;        /* makes sure it appears above other elements */
+  }
+  
+  /* footer styling */
+  .footer {
+    background-color: #102E50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .center_text {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    color: #102E50;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  /* Link styling */
+  a {
+    color: #102E50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
